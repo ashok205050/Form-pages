@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="clientpage.js"></script>
+    <link rel="stylesheet" href="clientpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Client Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="havdive_v2.png" alt="logo">
+        </div>
+        <div class="message">
+            <p>Welcome to HavDive</p>
+        </div>
+        <div class="right-corner-text">
+            <p>Welcome Client</p>
+        </div>
+    </div>
+
+<div class="main">  
+    <div class="sideNav">    
+        <nav>
+            <ul>
+                <li><a href="addaproject.html"><i class="fas fa-plus"></i><span class="nav-item">Add Project</span></a></li>
+                <li><a href="#"><i class="fas fa-file"></i><span class="nav-item">Project 1</span></a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i><span class="nav-item">Help</span></a></li>
+                <li><a class="profile" href="profile.html"><i class="fas fa-user"></i><span class="nav-item">Profile</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="form-area">
+        
+            <form class="profile-form" method="POST">
+                <h2>Add a Project</h2>
+                <label for="projectName">Project Name</label>
+                <input type="text" id="projectName" name="projectName" required>
+                <label for="projectDescription">Project Description</label>
+                <textarea id="projectDescription" name="projectDescription" rows="5" required></textarea>
+                <label for="clientName">Your Name</label>
+                <input type="text" id="clientName" name="clientName" required>
+                <label for="clientEmail">Your Email</label>
+                <input type="email" id="clientEmail" name="clientEmail" required>
+        
+                 <br>
+                 <br>   
+                <input type="submit" value="Submit Project">
+            </form>
+        
+    </div>
+</div>
+
+     
+</body>    
+</html>
